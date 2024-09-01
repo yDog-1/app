@@ -1,0 +1,23 @@
+{
+  "json.format.keepLines": true,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": [
+    "--fast"
+  ],
+  "go.toolsManagement.autoUpdate": true,
+  "go.testFlags": [
+    "-v",
+  ],
+  "go.testOnSave": true,
+  "go.coverOnSave": true,
+  "go.coverageDecorator": {
+    "type": "gutter",
+    "coveredGutterStyle": "blockgreen",
+    "uncoveredGutterStyle": "verticalyellow"
+  },
+  "go.testExplorer.packageDisplayMode": "nested",
+  "go.useLanguageServer": true,
+}

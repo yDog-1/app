@@ -1,0 +1,12 @@
+pkgname = "models"
+output = "./sqlboiler/models"
+wipe = true
+add-global-variants = false
+
+[psql]
+dbname = "dev"
+host = "database"
+port = 5432
+user = "user"
+pass = "password"
+sslmode = "disable"

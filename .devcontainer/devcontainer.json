@@ -1,0 +1,10 @@
+{
+	"name": "Go",
+	"dockerComposeFile": "./compose.yml",
+
+	"service": "go",
+	"workspaceFolder": "/app",
+	"remoteUser": "vscode",
+
+	// "postAttachCommand": "air -c .air.toml"
+}
